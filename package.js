@@ -10,7 +10,7 @@ Package.on_use(function (api) {
   api.versionsFrom('METEOR@0.9.0')
 
   api.use([
-    'coffeescript',
+    'coffeescript@2.0.3_3',
     'templating',
     'reactive-dict'
   ],'client')
